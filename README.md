@@ -3,6 +3,9 @@ Wrapper classes for Java code to interact with Lego EV3 robots.
 
 Developed at the University of Sheffield, for use within the [COM1003: Java Programming](http://www.dcs.shef.ac.uk/intranet/teaching/public/modules/level1/com1003.html) module.
 
+* [Documentation](http://ramsay-t.github.io/ShefRobot/)
+* [Release Binaries](https://github.com/ramsay-t/ShefRobot/releases/latest)
+
 ##Dependencies
 Being a Java project, it is necessary to have the [JDK](http://www.oracle.com/technetwork/java/javase/downloads/index.html) setup on the machines wishing to build and use the code within this repository. The code been developed under Java version 8, however it is likely to work under any modern version.
 
@@ -45,7 +48,7 @@ Documentation for the library can be found on the [repositories GitHub pages](ht
 If you would prefer to generate your own local copy, call the below command from this directory.
 
 ```bat
-javadoc -d docs -public -link http://docs.oracle.com/javase/8/docs/api/ -link http://www.lejos.org/ev3/docs/ -subpackages ShefRobot -windowtitle "ShefRobot API"
+javadoc -d docs -public -link http://docs.oracle.com/javase/8/docs/api/ -link http://www.lejos.org/ev3/docs/ -subpackages ShefRobot -windowtitle "ShefRobot API" -overview "ShefRobot/overview.html"
 ```
 
 ##License
